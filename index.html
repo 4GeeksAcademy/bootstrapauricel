@@ -46,24 +46,21 @@
                                 </div>
 
                                 <div class="modal-body">
-
                                     <div class="mb-3">
                                         <label for="exampleFormControlTextarea1" class="form-label">Caption</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                                             placeholder="add the caption of your post here"></textarea>
-
                                     </div>
 
-                                    <div class="d-flex justify-content-start gap-3 p-2">
+                                    <div class="grid gap-0 column-gap-3">
 
-                                        <ul class="list-group list-group-horizontal">
-                                            <li class="list-group-item"><i class="fa-solid fa-camera"></i></i></li>
-                                            <li class="list-group-item"><i class="fa-solid fa-location-dot"></i></li>
-                                        </ul>
+                                        <div class="d-flex justify-content-start m-2">
+
+                                               <button class="btn">  <i class="fa-solid fa-camera"></i></button>
+                                               <button class="btn"> <i class="fa-solid fa-location-dot"></i></button>
+                                            
+                                        </div>
                                     </div>
-
-
-
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -110,10 +107,14 @@
 
         <ul class="nav justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                <i class="fa-solid fa-table-cells"></i>
+              </button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                <i class="fa-solid fa-square"></i>
+              </button>
             </li>
             
           </ul>
@@ -121,54 +122,118 @@
             <!--tiras de fotos-->
             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
 
+                <div class="mx-auto p-2" style="width: 600px;">
+                  <!---->
+                  
 
-                <div id="post1" class="card mt-3">
-                    <div class="d-flex justify-content-between p-2">
-                        <span>Thor</span>
-                        <span>07/01/2024</span>
+                    <div id="post1" class="card mt-3">
+                        <div class="d-flex justify-content-between p-2">
+                            <span>Thor</span>
+                            <span>05-14</span>
+                        </div>
+                        <img src="https://cdn.pixabay.com/photo/2023/08/01/12/31/ai-generated-8162871_640.jpg" class="card-img-top" alt="....">
+                        <div class="card-body">
+                            <p><strong>1560 likes</strong></p>
+                            <p class="card-text"> Dios del trueno asgardiano basado en la deidad homónima, 
+                                del pueblo ficticio inspirado en el mundo de Asgard de la mitología nórdica, 
+                                de donde toman inspiración muchos aspectos del personaje. 
+                                Thor es uno de los dioses de Asgard e hijo del rey de Asgard, Odín. 
+                                En su tierra natal, de la que ha sido ocasionalmente rey, es conocido como Thor Odinson</p>
+                            <p class="card-text"><strong>#Thor#Marvel</strong></p>
+                        </div>
                     </div>
-                    <img src="https://cdn.pixabay.com/photo/2023/08/01/12/31/ai-generated-8162871_640.jpg" class="card-img-top" alt="Bleach">
-                    <div class="card-body">
-                        <p><strong>1560 likes</strong></p>
-                        <p class="card-text"> Dios del trueno asgardiano basado en la deidad homónima, 
-                            del pueblo ficticio inspirado en el mundo de Asgard de la mitología nórdica, 
-                            de donde toman inspiración muchos aspectos del personaje. 
-                            Thor es uno de los dioses de Asgard e hijo del rey de Asgard, Odín. 
-                            En su tierra natal, de la que ha sido ocasionalmente rey, es conocido como Thor Odinson</p>
-                        <p class="card-text"><strong>#Thor#Marvel</strong></p>
+
+
+                    <div id="post2" class="card mt-3">
+                        <div class="d-flex justify-content-between p-2">
+                            <span>Iroman</span>
+                            <span>09-25</span>
+                        </div>
+                        <img src="https://www.cinemascomics.com/wp-content/uploads/2024/04/iron-man-regreso-a-marvel-studios-1200x900.jpg" class="card-img-top" alt="....">
+                        <div class="card-body">
+                            <p><strong>1289 likes</strong></p>
+                            <p class="card-text"> Iron Man (cuyo verdadero nombre es Anthony "Tony" Edward Stark) es un personaje de Marvel Comics que es el protagonista de Iron Man
+                                Él es el jefe de Industrias Stark, que una vez vendió tecnologías de sistemas de armas altamente sofisticadas a las organizaciones de defensa del gobierno 
+                                como S.H.I.E.L.D. quien los usa para mantener la paz y el orden, pero ha alejado a su compañía del negocio de las armas.
+                            </p>
+                            <p class="card-text"><strong>#Iroman#Marvel</strong></p>
+                        </div>
                     </div>
+
+                    <div id="post3" class="card mt-3">
+                        <div class="d-flex justify-content-between p-2">
+                            <span>Pantera Negra</span>
+                            <span>10-30</span>
+                        </div>
+                        <img src="https://i.pinimg.com/474x/c3/e0/57/c3e05796358904622fed4f8db4aeaa42.jpg" alt="....">
+                        <div class="card-body">
+                            <p><strong>1895 likes</strong></p>
+                            <p class="card-text"> La nación de Wakanda recibió la caída de un gigantesco meteorito con un misterioso mineral, 
+                                el Vibranium, capaz de absorber el sonido y las vibraciones. Para proteger tan valiosa posesión, 
+                                T'Chaka es conocido como la Pantera Negra I, decidió ocultar a su país del resto del mundo para proteger a sus habitantes. Aun así, 
+                                la montaña de Vibranium fue descubierta por Ulises Klaw.
+                            </p>
+                            <p class="card-text"><strong>#PanteraNegra#Marvel</strong></p>
+                        </div>
+                </div>              
+                
                 </div>
 
-
-
-
-                
-
             </div>
+
+
             <!--panel de fotos-->
+
+            
             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
 
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col p-2">
-                            <img src="https://i.pinimg.com/736x/c6/fc/f3/c6fcf32320b2a7351eb1bdcdd0782afa.jpg"
-                                alt="Post Image" width="100%" height="100">
+                            <img src="https://cdn.pixabay.com/photo/2023/08/01/12/31/ai-generated-8162871_640.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
                         <div class="col p-2">
-                            <img src="https://i.pinimg.com/564x/09/85/32/0985328c88aaa9dccf9e3baceacca16f.jpg"
-                                alt="Post Image" width="100%" height="100">
+                            <img src="https://www.cinemascomics.com/wp-content/uploads/2024/04/iron-man-regreso-a-marvel-studios-1200x900.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
                         <div class="col p-2">
-                            <img src="https://i.pinimg.com/736x/fb/18/ba/fb18bad991fad2ec4d7a643ed9679a4f.jpg"
-                                alt="Post Image" width="100%" height="100">
+                            <img src="https://i.pinimg.com/474x/c3/e0/57/c3e05796358904622fed4f8db4aeaa42.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col p-2">
+                            <img src="https://i.pinimg.com/564x/83/1f/01/831f015888b5a0cd588e89b865ed12d0.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                        <div class="col p-2">
+                            <img src="https://i.blogs.es/c7ed10/screenshot_90/1366_2000.jpeg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                        <div class="col p-2">
+                            <img src="https://i.pinimg.com/474x/e4/f7/30/e4f7303c45887ec606e693844eee0789.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-2">
+                            <img src="https://i.blogs.es/e8a4a9/black-widow-marvel-pelicula-directora-primera-historia/1366_2000.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                        <div class="col p-2">
+                            <img src="https://i.pinimg.com/474x/ea/ba/5f/eaba5ff3f270f7b0a16c1beb92a3e5cf.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                        <div class="col p-2">
+                            <img src="https://img.rtve.es/imagenes/guardianes-galaxia-vol-3-final-espectacular/1682949764723.jpg"
+                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                    </div>
+
                 </div>
-
-
-
-
-
 
 
 
