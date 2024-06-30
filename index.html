@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid flex-column flex-md-row">
         <nav class="navbar bg-body-tertiary">
 
             <div class="container">
@@ -32,8 +32,6 @@
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Create New post
                     </button>
-
-
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
@@ -91,19 +89,11 @@
 
                 </div>
 
-
-
-
-
-
-
-
             </div>
 
         </nav>
 
         <!--centro-->
-
 
         <ul class="nav justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -116,17 +106,20 @@
                 <i class="fa-solid fa-square"></i>
               </button>
             </li>
-            
-          </ul>
+            </ul>
+
           <div class="tab-content" id="myTabContent">
             <!--tiras de fotos-->
             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
 
                 <div class="mx-auto p-2" style="width: 600px;">
-                  <!---->
-                  
+                  <!---->         
+                    
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12">
 
-                    <div id="post1" class="card mt-3">
+                    <div id="post1" class="card md-3">
                         <div class="d-flex justify-content-between p-2">
                             <span>Thor</span>
                             <span>05-14</span>
@@ -143,8 +136,7 @@
                         </div>
                     </div>
 
-
-                    <div id="post2" class="card mt-3">
+                    <div id="post2" class="card md-3">
                         <div class="d-flex justify-content-between p-2">
                             <span>Iroman</span>
                             <span>09-25</span>
@@ -160,7 +152,7 @@
                         </div>
                     </div>
 
-                    <div id="post3" class="card mt-3">
+                    <div id="post3" class="card md-3">
                         <div class="d-flex justify-content-between p-2">
                             <span>Pantera Negra</span>
                             <span>10-30</span>
@@ -175,62 +167,69 @@
                             </p>
                             <p class="card-text"><strong>#PanteraNegra#Marvel</strong></p>
                         </div>
+                    </div>
+                      </div>
+                    </div>
                 </div>              
                 
                 </div>
 
             </div>
 
-
             <!--panel de fotos-->
-
             
             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
 
                 <div class="container-fluid">
+                    <div class="container-md">
                     <div class="row">
-                        <div class="col p-2">
-                            <img src="https://cdn.pixabay.com/photo/2023/08/01/12/31/ai-generated-8162871_640.jpg"
-                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
-                        </div>
-                        <div class="col p-2">
-                            <img src="https://www.cinemascomics.com/wp-content/uploads/2024/04/iron-man-regreso-a-marvel-studios-1200x900.jpg"
-                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
-                        </div>
-                        <div class="col p-2">
-                            <img src="https://i.pinimg.com/474x/c3/e0/57/c3e05796358904622fed4f8db4aeaa42.jpg"
-                                alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
-                        </div>
+                        
+                            <div class="col-md-4 p-2">
+                                <img src="https://cdn.pixabay.com/photo/2023/08/01/12/31/ai-generated-8162871_640.jpg"
+                                    alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="col-md-4 p-2">
+                                <img src="https://www.cinemascomics.com/wp-content/uploads/2024/04/iron-man-regreso-a-marvel-studios-1200x900.jpg"
+                                    alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="col-md-4 p-2">
+                                <img src="https://i.pinimg.com/474x/c3/e0/57/c3e05796358904622fed4f8db4aeaa42.jpg"
+                                    alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
+                            </div>
+                        
+
                     </div>
 
                     <div class="row">
-                        <div class="col p-2">
+                        <div class="col-md-4 p-2">
                             <img src="https://i.pinimg.com/564x/83/1f/01/831f015888b5a0cd588e89b865ed12d0.jpg"
                                 alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
-                        <div class="col p-2">
+                        <div class="col-md-4 p-2">
                             <img src="https://i.blogs.es/c7ed10/screenshot_90/1366_2000.jpeg"
                                 alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
-                        <div class="col p-2">
+                        <div class="col-md-4 p-2">
                             <img src="https://i.pinimg.com/474x/e4/f7/30/e4f7303c45887ec606e693844eee0789.jpg"
                                 alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col p-2">
+                        <div class="col-md-4 p-2">
                             <img src="https://i.blogs.es/e8a4a9/black-widow-marvel-pelicula-directora-primera-historia/1366_2000.jpg"
                                 alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
-                        <div class="col p-2">
+                        <div class="col-md-4 p-2">
                             <img src="https://i.pinimg.com/474x/ea/ba/5f/eaba5ff3f270f7b0a16c1beb92a3e5cf.jpg"
                                 alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
-                        <div class="col p-2">
+                        <div class="col-md-4 p-2">
                             <img src="https://img.rtve.es/imagenes/guardianes-galaxia-vol-3-final-espectacular/1682949764723.jpg"
                                 alt="Post Image"  class="img-fluid" style="width: 100%; height: 400px; object-fit: cover;">
                         </div>
+                    </div>
+
                     </div>
 
                 </div>
